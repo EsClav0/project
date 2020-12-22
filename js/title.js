@@ -1,4 +1,4 @@
-﻿if(document.addEventListener){
+if(document.addEventListener){
 	document.addEventListener("DOMContentLoaded", function(){
 		loaded();
 	});
@@ -17,20 +17,45 @@ function loaded(){
 var x = 0;
 
 var titleText = [ "|",
-				"S",
-				"S|",
-				"S",
-				"Sa|",
-				"Sa",
-				"Sad|",
-				"Sad",
-				"Sad|",
-				"Sad",
-				"Sad|",
-				"Sa",
-				"Sa|",
-				"S",
-				"S|"];
+					"E|",
+					"E",
+					"E|",
+					"Es",
+					"Es|",
+					"Es",
+          "Es|",					
+					"EsC",
+					"EsC|",
+					"EsC",
+					"EsC|",
+					"EsCl",
+					"EsCl|",
+					"EsCl",
+					"EsCl|",
+					"EsCla",
+					"EsCla|",
+					"EsCla",
+					"EsCla|",
+					"EsClav",
+					"EsClav|",
+					"EsClav",
+					"EsClav|",
+					"EsClavo",
+					"EsClavo|",
+					"EsClavo",
+					"EsClavo|",
+					"EsClav ",				
+					"EsClav|",
+					"EsCla",
+					"EsCla|",
+					"EsCl",
+					"EsCl|",
+					"EsC",
+					"EsC|",
+					"Es",
+					"Es|",
+					"E",
+					"E|"];
 
 function loop(){
 
