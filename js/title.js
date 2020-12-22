@@ -1,4 +1,4 @@
-if(document.addEventListener){
+document.addEventListener){
 	document.addEventListener("DOMContentLoaded", function(){
 		loaded();
 	});
