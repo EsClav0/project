@@ -1,0 +1,13 @@
+div.container {
+	color: #ffff;
+	height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+} 
+img.gif
+{
+	  margin-left: 33%;
+    margin-right: auto;
+    width: 35%;
+} 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sad</title>
+		<link rel="icon" type="image/ico" href="img/favicon.png">
+		<link rel="stylesheet" href="css/style.css">
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+		<style>
+			html {
+				background: #131313;
+			}
+			body {
+				background: url(img/rose.jpg)	
+			}
+		</style>
+	</head>
+<body>
+	<script src="js/title.js"></script>
+	<div class="container">
+		<h1 align="center">Bored</h1>
+	</div>
+	<img src="img/giphy.gif" alt="" class="gif">
+		<div id="clockDisplay" class="clockStyle" align="center">09:44:37 PM</div>																		
+		<script>
+			function renderTime() {
+			var currentTime = new Date();
+			var diem = "AM";
+			var h = currentTime.getHours();
+			var m = currentTime.getMinutes();
+			var s = currentTime.getSeconds();
+			setTimeout('renderTime()',1000);
+			if (h == 0) {
+				h = 12;
+			} else if (h > 12) { 
+				h = h - 12;
+				diem="PM";
+			}
+			if (h < 10) {
+				h = "0" + h;
+			}
+			if (m < 10) {
+				m = "0" + m;
+			}
+			if (s < 10) {
+				s = "0" + s;
+			}
+			var myClock = document.getElementById('clockDisplay');
+			myClock.textContent = h + ":" + m + ":" + s + " " + diem;
+			myClock.innerText = h + ":" + m + ":" + s + " " + diem;
+			}
+			renderTime();
+		</script>
+				</div>
+			</div>
+    </div>
+</center>
+</div>
+<style>
+html, body {
+  overflow: hidden;
+  color: #fefeff;
+}
+body {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+</style>
+</body>
+</html>
